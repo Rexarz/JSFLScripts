@@ -1,0 +1,17 @@
+﻿xjsfl.init(this);
+fl.getDocumentDOM().getTimeline().cutLayers();
+fl.getDocumentDOM().getTimeline().addNewLayer();
+fl.getDocumentDOM().addNewRectangle({left:-232, top:138, right:-190, bottom:158}, 0);
+fl.getDocumentDOM().selectAll();
+fl.getDocumentDOM().convertToSymbol('movie clip','','center');
+fl.getDocumentDOM().selection[0].x = 0;
+fl.getDocumentDOM().selection[0].y = 0;
+inspect(fl.getDocumentDOM().selection[0]);
+fl.getDocumentDOM().enterEditMode('inPlace');
+fl.getDocumentDOM().deleteSelection();
+fl.getDocumentDOM().getTimeline().pasteLayers();
+fl.getDocumentDOM().getTimeline().addNewLayer();
+	//var tline = doc.getTimeline();
+fl.getDocumentDOM().getTimeline().layers[0].frames[0].actionScript = "stop();";;
+//.layers[_frames[0]].frames[_frames[1]].actionScript = "stop();";;
+	fl.getDocumentDOM().exitEditMode();

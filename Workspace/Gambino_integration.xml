@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<panelset>
+
+  <application maximize="true" rect="0 30 1920 1050"/>
+
+  <panelframe dock="floating" height="0" iconmodewidth="39" locked="false" mode="icon" monitor="1" width="0" x="left" y="0">
+    <panelcontainer expanded="true" height="0" visible="false">
+      <panel height="0" id="droverinfo" unconstrainedheight="215" unconstrainedwidth="212" width="0"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="0" visible="false">
+      <panel height="0" id="drovermotionpresets" unconstrainedheight="355" unconstrainedwidth="326" width="0">
+        <prop.list>
+          <prop.pair>
+            <key>MotionPresetsSplitterPercentPropertyKey</key>
+            <float>0.5</float>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" height="1128" locked="false" width="1914" x="1928" y="0">
+    <panelcontainer expanded="true" height="485" visible="true">
+      <panel height="485" id="droveroutput" unconstrainedheight="485" unconstrainedwidth="695" width="695">
+        <prop.list>
+          <prop.pair>
+            <key>ConsoleViewState</key>
+            <int size="32" type="unsigned">4</int>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="535" visible="true">
+      <panel height="535" id="actions" unconstrainedheight="535" unconstrainedwidth="695" width="695">
+        <prop.list>
+          <prop.pair>
+            <key>kPanelSplitPercentage</key>
+            <float>0.30000001</float>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" floatilla="true" height="1128" locked="false" width="1914" x="1928" y="0">
+    <panelcontainer expanded="true" height="219" visible="true">
+      <panel height="219" id="transform" unconstrainedheight="219" unconstrainedwidth="239" width="239"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="385" visible="true">
+      <panel height="385" id="64" unconstrainedheight="385" unconstrainedwidth="239" width="239">
+        <prop.list>
+          <prop.pair>
+            <key>SWFNamePropertyKey</key>
+            <ustring>xJSFL Snippets.swf</ustring>
+</prop.pair>
+          <prop.pair>
+            <key>SWFPanelContentHeight</key>
+            <int size="32" type="signed">385</int>
+</prop.pair>
+          <prop.pair>
+            <key>SWFPanelContentWidth</key>
+            <int size="32" type="signed">239</int>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="441" visible="true">
+      <panel height="441" id="384" unconstrainedheight="441" unconstrainedwidth="239" width="239">
+        <prop.list>
+          <prop.pair>
+            <key>extensionID</key>
+            <string>com.adobe.DesignLibraries.angular</string>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" floatilla="true" height="1128" iconmodewidth="87" locked="false" width="1914" x="1928" y="0">
+    <panelcontainer expanded="true" height="1040" visible="true">
+      <panel height="1040" id="droverlibrary" unconstrainedheight="1040" unconstrainedwidth="384" width="384"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" floatilla="true" height="1128" locked="false" width="1914" x="1928" y="0">
+    <panelcontainer expanded="true" height="910" visible="true">
+      <panel height="910" id="droverproperties" unconstrainedheight="910" unconstrainedwidth="300" width="300"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="121" visible="true">
+      <panel height="121" id="history" unconstrainedheight="121" unconstrainedwidth="300" width="300"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" floatilla="true" height="1128" iconmodewidth="39" locked="false" width="1914" x="1928" y="0">
+    <panelcontainer expanded="true" height="515" visible="true">
+      <panel height="515" id="drovercolor" unconstrainedheight="515" unconstrainedwidth="282" width="282"/>
+      <panel height="515" id="droverswatch" unconstrainedheight="515" unconstrainedwidth="282" width="282"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="212" visible="true">
+      <panel height="212" id="droveralign" unconstrainedheight="212" unconstrainedwidth="282" width="282"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="300" visible="true">
+      <panel height="300" id="components" unconstrainedheight="300" unconstrainedwidth="282" width="282"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" height="0" locked="false" monitor="1" width="0" x="left" y="0">
+    <panelcontainer expanded="true" height="0" visible="false">
+      <panel height="0" id="compiler errors" unconstrainedheight="180" unconstrainedwidth="600" width="0"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" height="0" locked="false" monitor="1" width="0" x="left" y="0">
+    <panelcontainer expanded="true" height="0" visible="false">
+      <panel height="0" id="67" unconstrainedheight="375" unconstrainedwidth="500" width="0">
+        <prop.list>
+          <prop.pair>
+            <key>SWFNamePropertyKey</key>
+            <ustring>Code Snippets.swf</ustring>
+</prop.pair>
+          <prop.pair>
+            <key>SWFPanelContentHeight</key>
+            <int size="32" type="signed">375</int>
+</prop.pair>
+          <prop.pair>
+            <key>SWFPanelContentWidth</key>
+            <int size="32" type="signed">500</int>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" height="0" locked="false" monitor="1" width="0" x="left" y="0">
+    <panelcontainer expanded="true" height="0" visible="false">
+      <panel height="0" id="find" unconstrainedheight="238" unconstrainedwidth="286" width="0">
+        <prop.list>
+          <prop.pair>
+            <key>LocationColumnWidth</key>
+            <float>130</float>
+</prop.pair>
+          <prop.pair>
+            <key>MatchColumnWidth</key>
+            <float>108</float>
+</prop.pair>
+          <prop.pair>
+            <key>TypeColumnWidth</key>
+            <float>70</float>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="floating" height="0" locked="false" monitor="1" width="0" x="left" y="0">
+    <panelcontainer expanded="true" height="0" visible="false">
+      <panel height="0" id="scene" unconstrainedheight="114" unconstrainedwidth="208" width="0"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="left" height="999" iconmodewidth="35" locked="false" width="58" x="0" y="12">
+    <panelcontainer expanded="true" height="979" visible="true">
+      <panel height="979" id="tools" unconstrainedheight="175" unconstrainedwidth="189" width="56"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="top" height="327" locked="true" width="1861" x="0" y="0">
+    <panelcontainer expanded="true" height="307" visible="true">
+      <panel height="307" id="drovertimeline" unconstrainedheight="193" unconstrainedwidth="1909" width="1859"/>
+    </panelcontainer>
+  </panelframe>
+
+</panelset>
